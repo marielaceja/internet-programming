@@ -1,0 +1,76 @@
+h1 {
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+figure {
+    float:right;
+    text-align:center;
+}
+figure img{
+    border-radius:20px;
+    border: solid 2px green;
+}
+.globalWarming{
+    text-align:center;
+}
+nav a{
+    padding:20px;
+    padding-bottom:4px;
+    color: green;
+    font-size:1.8em;
+    background-color: yellow;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+nav a:hover, #currentPage{ /*pseudo class*/
+    background-color: orange;
+    font-size:2em;
+    transition:.4s;
+}
+main, nav, footer{
+    width:960px;
+    margin:0 auto; /* This aligns the section in the center -- CSS commenting method */
+}
+#mainStats{
+    background-color:#b3ffb3;
+}
+footer{
+    text-align:center;
+}
+.listItem{
+    color: green;
+    font-weight:bold;
+}
+body{
+    font-family:Verdana, Arial, Georgia;
+    background-color: #D5E6CD;
+}
+table{
+    margin: 0 auto;
+    width:900px;
+    height:150px;
+    font-size:10pt;
+}
+.empty{
+    text-align:center;
+    height:800px; 
+    font-size:18pt;
+}
+#tableTitle{
+    background-color:green;
+}
+#opinionsTitle{
+    background-color:blue;
+    text-align:center;
+}
+.percentages, .percent{
+    background-color:grey;
+}
+.measurements, .measure{
+    background-color:white;
+}
+.measurements, .percentages{
+    font-weight:bold;
+}

@@ -1,0 +1,25 @@
+[10-Feb-2016 01:07:36 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/labs/lab2/review.php on line 13
+[12-Feb-2016 00:55:33 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/labs/lab2/index.php on line 28
+[12-Feb-2016 00:56:29 UTC] PHP Fatal error:  Call to undefined function led() in /home/ubuntu/workspace/labs/lab2/index.php on line 26
+[12-Feb-2016 00:56:29 UTC] PHP Stack trace:
+[12-Feb-2016 00:56:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
+[12-Feb-2016 01:04:17 UTC] PHP Fatal error:  Cannot redeclare led() (previously declared in /home/ubuntu/workspace/labs/lab2/index.php:2) in /home/ubuntu/workspace/labs/lab2/ledboard/ledLetters.php on line 250
+[12-Feb-2016 01:04:17 UTC] PHP Stack trace:
+[12-Feb-2016 01:04:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
+[12-Feb-2016 01:04:42 UTC] PHP Fatal error:  Cannot redeclare led() (previously declared in /home/ubuntu/workspace/labs/lab2/index.php:2) in /home/ubuntu/workspace/labs/lab2/ledboard/ledLetters.php on line 250
+[12-Feb-2016 01:04:42 UTC] PHP Stack trace:
+[12-Feb-2016 01:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
+[12-Feb-2016 01:04:42 UTC] PHP Fatal error:  Cannot redeclare led() (previously declared in /home/ubuntu/workspace/labs/lab2/index.php:2) in /home/ubuntu/workspace/labs/lab2/ledboard/ledLetters.php on line 250
+[12-Feb-2016 01:04:42 UTC] PHP Stack trace:
+[12-Feb-2016 01:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
+[12-Feb-2016 01:08:47 UTC] PHP Fatal error:  Call to undefined function led() in /home/ubuntu/workspace/labs/lab2/index.php on line 28
+[12-Feb-2016 01:08:47 UTC] PHP Stack trace:
+[12-Feb-2016 01:08:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
+[12-Feb-2016 01:52:25 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/labs/lab2/ledboard/ledLetters.php on line 352
+[12-Feb-2016 01:52:25 UTC] PHP Stack trace:
+[12-Feb-2016 01:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
+[14-Feb-2016 04:08:41 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/labs/lab2/ledboard/ledLetters.php on line 452
+[14-Feb-2016 04:08:41 UTC] PHP Stack trace:
+[14-Feb-2016 04:08:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
+[14-Feb-2016 06:16:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/labs/lab2/index.php on line 102
+[14-Feb-2016 06:27:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab2/index.php on line 40

@@ -1,0 +1,62 @@
+h1 {
+    background-color: gray;
+    text-align: center;
+    color: black;
+}
+nav a{
+    padding:20px;
+    padding-bottom:4px;
+    color: black;
+    font-size:1.8em;
+    background-color: white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+main, nav, footer{
+    width:960px;
+    margin:0 auto; /* This aligns the section in the center -- CSS commenting method */
+}
+
+nav a:hover, #currentPage{ /*pseudo class*/
+    background-color: pink;
+    font-size:2em;
+    transition:.4s;
+}
+footer{
+    text-align:center;
+}
+body{
+    padding-top:40px;
+    font-family:Verdana, Arial, Georgia;
+    background-color: white;
+}
+main{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+table{
+    margin: 0 auto;
+    width:900px;
+    height:150px;
+    font-size:10pt;
+}
+
+.boldText{
+    font-weight:bold;
+}
+
+figure {
+    float:center;
+    text-align:center;
+}
+figure img{
+    border-radius:20px;
+    border: solid 2px black;
+}
+
+.colorRed{
+    color:red;
+}
+.colorGreen{
+    color:green;
+}
