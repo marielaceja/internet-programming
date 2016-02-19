@@ -49,3 +49,47 @@
 [17-Feb-2016 01:16:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/challenge1.php:0
 [17-Feb-2016 01:16:56 UTC] PHP   2. generatePassword() /home/ubuntu/workspace/labs/lab2/challenge1.php:30
 [17-Feb-2016 01:46:39 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/labs/lab3/review.php on line 14
+[19-Feb-2016 00:25:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '(' in /home/ubuntu/workspace/labs/lab3/review.php on line 21
+[19-Feb-2016 00:25:57 UTC] PHP Fatal error:  Call to undefined function arra_values() in /home/ubuntu/workspace/labs/lab3/review.php on line 29
+[19-Feb-2016 00:25:57 UTC] PHP Stack trace:
+[19-Feb-2016 00:25:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:32:18 UTC] PHP Parse error:  syntax error, unexpected 'indexedArrays' (T_STRING) in /home/ubuntu/workspace/labs/lab3/review.php on line 38
+[19-Feb-2016 00:33:32 UTC] PHP Fatal error:  Call to undefined function arra_values() in /home/ubuntu/workspace/labs/lab3/review.php on line 32
+[19-Feb-2016 00:33:32 UTC] PHP Stack trace:
+[19-Feb-2016 00:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:33:32 UTC] PHP   2. learningArrays() /home/ubuntu/workspace/labs/lab3/review.php:58
+[19-Feb-2016 00:38:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 47
+[19-Feb-2016 00:38:19 UTC] PHP Stack trace:
+[19-Feb-2016 00:38:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:38:19 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:64
+[19-Feb-2016 00:39:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 48
+[19-Feb-2016 00:39:54 UTC] PHP Stack trace:
+[19-Feb-2016 00:39:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:39:54 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:65
+[19-Feb-2016 00:40:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 48
+[19-Feb-2016 00:40:15 UTC] PHP Stack trace:
+[19-Feb-2016 00:40:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:40:15 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:65
+[19-Feb-2016 00:40:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 48
+[19-Feb-2016 00:40:53 UTC] PHP Stack trace:
+[19-Feb-2016 00:40:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:40:53 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:52
+[19-Feb-2016 00:40:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 48
+[19-Feb-2016 00:40:53 UTC] PHP Stack trace:
+[19-Feb-2016 00:40:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:40:53 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:65
+[19-Feb-2016 00:41:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 48
+[19-Feb-2016 00:41:40 UTC] PHP Stack trace:
+[19-Feb-2016 00:41:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:41:40 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:52
+[19-Feb-2016 00:41:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 48
+[19-Feb-2016 00:41:40 UTC] PHP Stack trace:
+[19-Feb-2016 00:41:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:41:40 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:65
+[19-Feb-2016 00:42:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab3/review.php on line 48
+[19-Feb-2016 00:42:16 UTC] PHP Stack trace:
+[19-Feb-2016 00:42:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/review.php:0
+[19-Feb-2016 00:42:16 UTC] PHP   2. displayShoppingCart() /home/ubuntu/workspace/labs/lab3/review.php:52
+[19-Feb-2016 01:13:38 UTC] PHP Parse error:  syntax error, unexpected 'displayCards' (T_STRING) in /home/ubuntu/workspace/labs/lab3/silverjack.php on line 5
+[19-Feb-2016 01:13:49 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/ubuntu/workspace/labs/lab3/silverjack.php on line 6
+[19-Feb-2016 01:14:13 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/labs/lab3/silverjack.php on line 7
