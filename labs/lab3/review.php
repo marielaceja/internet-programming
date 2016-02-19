@@ -19,6 +19,7 @@ function learningArrays(){
     
     echo array_sum($prices);
     
+    echo "<hr />";
     //removing elements from an array
     unset($prices[2]);
     print_r($prices);
@@ -28,12 +29,19 @@ function learningArrays(){
     print_r($prices);
     echo "<hr />";
     
-    $prices = arra_values($prices);
-    echo "<hr />";
+    $prices = array_values($prices);
     print_r($prices);
     echo "<hr />";
 }
 
+function indexedArrays(){
+    //also known as associative arrays
+    $prices = array("iPad Mini"=>250, "iPad Pro"=>700);
+    $prices["iPad Air"]=500;
+    
+    //echo $prices[0];
+    print_r($prices);
+}
 
 
 
@@ -46,7 +54,8 @@ function learningArrays(){
     <body>
         <h1> Arrays </h1>
         
-        
+        <?=learningArrays()?>
+        <?=indexedArrays()?>
         
     </body>
 </html>
