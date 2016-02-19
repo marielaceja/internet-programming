@@ -23,3 +23,29 @@
 [14-Feb-2016 04:08:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/index.php:0
 [14-Feb-2016 06:16:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/labs/lab2/index.php on line 102
 [14-Feb-2016 06:27:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab2/index.php on line 40
+[17-Feb-2016 01:10:09 UTC] PHP Parse error:  syntax error, unexpected '<', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/labs/lab2/challenge1.php on line 6
+[17-Feb-2016 01:10:53 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/labs/lab2/challenge1.php on line 9
+[17-Feb-2016 01:10:53 UTC] PHP Stack trace:
+[17-Feb-2016 01:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/challenge1.php:0
+[17-Feb-2016 01:10:53 UTC] PHP   2. generatePassword() /home/ubuntu/workspace/labs/lab2/challenge1.php:28
+[17-Feb-2016 01:13:02 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/labs/lab2/challenge1.php on line 9
+[17-Feb-2016 01:13:02 UTC] PHP Stack trace:
+[17-Feb-2016 01:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/challenge1.php:0
+[17-Feb-2016 01:13:02 UTC] PHP   2. generatePassword() /home/ubuntu/workspace/labs/lab2/challenge1.php:28
+[17-Feb-2016 01:13:19 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/labs/lab2/challenge1.php on line 9
+[17-Feb-2016 01:13:19 UTC] PHP Stack trace:
+[17-Feb-2016 01:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/challenge1.php:0
+[17-Feb-2016 01:13:19 UTC] PHP   2. generatePassword() /home/ubuntu/workspace/labs/lab2/challenge1.php:28
+[17-Feb-2016 01:14:56 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/labs/lab2/challenge1.php on line 9
+[17-Feb-2016 01:14:56 UTC] PHP Stack trace:
+[17-Feb-2016 01:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/challenge1.php:0
+[17-Feb-2016 01:14:56 UTC] PHP   2. generatePassword() /home/ubuntu/workspace/labs/lab2/challenge1.php:30
+[17-Feb-2016 01:15:43 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/labs/lab2/challenge1.php on line 9
+[17-Feb-2016 01:15:43 UTC] PHP Stack trace:
+[17-Feb-2016 01:15:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/challenge1.php:0
+[17-Feb-2016 01:15:43 UTC] PHP   2. generatePassword() /home/ubuntu/workspace/labs/lab2/challenge1.php:30
+[17-Feb-2016 01:16:56 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/labs/lab2/challenge1.php on line 9
+[17-Feb-2016 01:16:56 UTC] PHP Stack trace:
+[17-Feb-2016 01:16:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab2/challenge1.php:0
+[17-Feb-2016 01:16:56 UTC] PHP   2. generatePassword() /home/ubuntu/workspace/labs/lab2/challenge1.php:30
+[17-Feb-2016 01:46:39 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/labs/lab3/review.php on line 14
