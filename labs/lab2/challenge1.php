@@ -35,8 +35,6 @@ function generatePassword(){
         echo "</tr>";
     }
     echo "</table>";
-    
-    
 }
 
 ?>
