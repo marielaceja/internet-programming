@@ -1,8 +1,8 @@
 <?php
-
+$prices = array(550,750,600);
 function learningArrays(){
     //$prices = array(); //Initialize an empty array
-    $prices = array(550,750,600);
+    
     
     $prices[]=100; // add and element to the end of the array
     array_push($prices,200); //also adds element
@@ -41,9 +41,14 @@ function indexedArrays(){
     
     //echo $prices[0];
     print_r($prices);
+    echo "<br /><br />";
 }
-
-
+function displayShoppingCart(){
+    global $prices;
+    foreach($prices as $product =>$price){
+        echo $product . ": $".$price. "<br />";
+    }
+}
 
 ?>
 <!DOCTYPE html>
@@ -56,6 +61,7 @@ function indexedArrays(){
         
         <?=learningArrays()?>
         <?=indexedArrays()?>
+        <?=displayShoppingCart()?>
         
     </body>
 </html>
