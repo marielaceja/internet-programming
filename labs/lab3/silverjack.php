@@ -1,10 +1,32 @@
 <?php
 
-$suit = array("clubs","diamonds","hearts","spades");
-echo "<img src=cards/clubs/1.png>";
-$randValue = rand(0,3);
+$deck = array();
 
-$suit[$randValue];
+function displayCards(){
+    for($i = 1; $i < 52; $i++){
+        $deck[] = $i;
+    }
+    print_r($deck);
+    
+    shuffle($deck);
+    echo "<hr />";
+    print_r($deck);
+    echo "<hr />";
+    $card = array_pop($deck);
+    echo $card;
+    echo "<hr />";
+    
+    $suit = array("clubs","diamons","hearts","spades");
+    $cardSuit = $suit[floor($card/13)];
+    $cardValue = $card % 13;
+    if($cardValue == 0){
+        $cardValue = 13;
+    }
+    //Display Card
+    echo "<img src=cards/$cardSuit/$cardValue.png>";
+   
+    
+}
 
 
 ?>
@@ -24,5 +46,8 @@ $suit[$randValue];
     </head>
     <body>
         <h1>Silver Jack Game</h1>
+        
+        <hr />
+        <?=displayCards()?>
     </body>
 </html>
