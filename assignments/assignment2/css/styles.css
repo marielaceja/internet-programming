@@ -1,5 +1,14 @@
 nav a:hover, #currentPage{ /*pseudo class*/
-    background-color: red;
+    background-color: #66ccff;
     font-size:2em;
     transition:.4s;
+}
+.instructions{
+    text-align:center;
+}
+#game{
+    margin: 0 auto;
+    width:400px;
+    height:250px;
+    font-size:10pt;
 }
