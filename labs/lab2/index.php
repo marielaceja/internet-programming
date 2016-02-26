@@ -38,25 +38,7 @@ function randomColor($word){
 <html>
     <head>
         <title> Lab 2: LED Board </title>
-        <style>
-            td{
-                height:15px;
-                width:7px;
-            }
-            table{
-                display:inline-block;
-                border-radius:15px;
-            }
-            main{
-                text-align:center;
-            }
-            body{
-                color:white;
-                background-color:black;
-                padding:0 auto;
-            }
-            
-        </style>
+        <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
         <h1> LED Board </h1>
