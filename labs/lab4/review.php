@@ -4,6 +4,7 @@ include('../lab2/ledboard/ledLetters.php');
     //print_r($_POST);
     // Print array contents
     //print_r($_GET);
+    // GET allows you to change values of url
     
     function displayMessage(){
         if(isset($_GET['message'])){

@@ -1,0 +1,42 @@
+nav a{
+    padding:18px;
+    padding-bottom:4px;
+    color: black;
+    font-size:1.8em;
+    background-color: white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+main, nav, footer{
+    width:960px;
+    margin:0 auto; /* This aligns the section in the center -- CSS commenting method */
+}
+
+nav a:hover, #currentPage{ /*pseudo class*/
+    background-color: pink;
+    font-size:2em;
+    transition:.4s;
+}
+footer{
+    text-align:center;
+}
+body{
+    background: url("img/tree.png");
+    padding-top:40px;
+    font-family:Verdana, Arial, Georgia;
+    background-color: white;
+    background-size:105%;
+}
+h1{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+.titles{
+    font-weight:bold;
+}
+main{
+    background-color:white;
+}
