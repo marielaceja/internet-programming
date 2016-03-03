@@ -1,4 +1,5 @@
 <?php
+    ini_set("display_errors", "On");
 
     $deck = array();
 
@@ -17,11 +18,13 @@
         $card = array_pop($deck);
         $suit = array("clubs", "diamonds", "hearts", "spades");
         $cardSuit = $suit[floor($card / 13)];
-        $randomCard = rand(1, 13);
+        //$randomCard = rand(1, 13);
         $cardValue = $card % 13;
         if($cardValue == 0) {
             $cardValue = 13;
+            $cardSuit = $suit[0];
         }
+      
     }
     
     // This function accepts an array by reference as a parameter ($cardSuitArray).
@@ -58,119 +61,164 @@
 
         }
     }
-
+    
+   
+   
 
 
     function displayHand()
     {
+        
+         $p1sum = 0;
+         $p2sum = 0;
+         $p3sum = 0;
+         $p4sum = 0;
+         
+        // Parallel card suit and card value arrays.
+        $playerOneHandSuits = array();
+        $playerTwoHandSuits = array();
+        $playerThreeHandSuits = array();
+        $playerFourHandSuits = array();
+        $playersScores = array();
+        $playerOneHandValues = getPlayerHand($playerOneHandSuits);
+        $playerTwoHandValues = getPlayerHand($playerTwoHandSuits);
+        $playerThreeHandValues = getPlayerHand($playerThreeHandSuits);
+        $playerFourHandValues = getPlayerHand($playerFourHandSuits);
+    
        //Displays the array of cards per player along with the sum of points
-    
-    
-    
+        $players = array("blossom", "bubbles", "buttercup", "mojojo");
+        shuffle($players); 
         
+        
+      
         //OUTPUT FOR PLAYER 1
-        $randomIndex = rand(1,$playersSize); //GET RANDOM INDEX VALUE TO SELECT PLAYER FROM ARRAY OF PLAYERS
         
-        $randomPlayer = $players[$randomIndex]; //PLAYER AT INDEX VALUE IS SELECTED
-        
-        
-        echo "<img src = players/$randomPlayer.png>"; //OUTPUT IMAGE OF SELECTED PLAYER
-    
-    
-        array_pop($players($randomPlayer)); //POP USED PLAYER SO NOT TO BE CHOSEN AGAIN
-        
-        $playerSize--; //DECREMENT SIZE OF ARRAY SINCE AN ELEMENT HAS BEEN POPPED
-    
-    
-        print_r($player1); //OUTPUT PLAYER 1'S DECK
-        echo(" " + p1sum); //OUTPUT THEIR SUM
-        
-        echo "<br/>";
-        
+        $randomPlayer = array_pop($players);//PLAYER AT INDEX VALUE IS SELECTED
+        echo "Player 1: ";
+        echo '&nbsp&nbsp&nbsp';
+        echo "<img src = 'players/".$randomPlayer.".png' width = 100>";//OUTPUT IMAGE OF SELECTED PLAYER
+        echo '&nbsp&nbsp&nbsp';
+        $p1sum = displayCards($playerOneHandSuits,$playerOneHandValues);
+        echo('&nbsp&nbsp&nbsp'.$p1sum);//OUTPUT THEIR SUM
+        echo"</br>";
+        $playersScores['player1'] = $p1sum;
         
         //OUTPUT FOR PLAYER 2
-        
-        $randomIndex = rand(1,$playersSize);
-        
-        $randomPlayer = $players[$randomIndex];
-        
-        
-        echo "<img src = players/$randomPlayer.png>";
-        
-        array_pop($players($randomPlayer));
-        
-        $playerSize--;
-        
-        
-        print_r($player2);
-        echo(" " + p2sum);
-        
+         
+        $randomPlayer = array_pop($players);//PLAYER AT INDEX VALUE IS SELECTED
+        echo "Player 2: ";
+        echo '&nbsp&nbsp&nbsp';
+        echo "<img src = 'players/".$randomPlayer.".png' width = 100>";//OUTPUT IMAGE OF SELECTED PLAYER
+        echo '&nbsp&nbsp&nbsp';
+        $p2sum = displayCards($playerTwoHandSuits,$playerTwoHandValues);
+        echo('&nbsp&nbsp&nbsp'.$p2sum); //OUTPUT THEIR SUM
         echo "<br/>";
-        
-        
+        $playersScores['player2'] = $p2sum;
+       
         //OUTPUT FOR PLAYER 3
         
-        $randomIndex = rand(1,$playersSize);
-        
-        $randomPlayer = $players[$randomIndex];
-        
-        
-        echo "<img src = players/$randomPlayer.png>";
-        
-        
-         array_pop($players($randomPlayer));
-        
-        $playerSize--;
-        
-        print_r($player3);
-        echo(" " + p3sum);
-        
+        $randomPlayer = array_pop($players);//PLAYER AT INDEX VALUE IS SELECTED
+        echo "Player 3: ";
+        echo '&nbsp&nbsp&nbsp';
+        echo "<img src = 'players/".$randomPlayer.".png' width = 100>";//OUTPUT IMAGE OF SELECTED PLAYER
+        echo '&nbsp&nbsp&nbsp';
+        $p3sum = displayCards($playerThreeHandSuits,$playerThreeHandValues); //OUTPUT PLAYER 1'S DECK
+        echo('&nbsp&nbsp&nbsp'.$p3sum); //OUTPUT THEIR SUM
         echo "<br/>";
+        $playersScores['player3'] = $p3sum;
         
-        
+
         
         //OUTPUT FOR PLAYER 4
+       
+        $randomPlayer = array_pop($players);//PLAYER AT INDEX VALUE IS SELECTED
+        echo "Player 4: ";
+        echo '&nbsp&nbsp&nbsp';
+        echo "<img src = 'players/".$randomPlayer.".png' width = 100>";//OUTPUT IMAGE OF SELECTED PLAYER
+        echo '&nbsp&nbsp&nbsp';
+        $p4sum = displayCards($playerFourHandSuits,$playerFourHandValues); //OUTPUT PLAYER 1'S DECK
+        echo "      ";
+        echo('&nbsp&nbsp&nbsp'.$p4sum); //OUTPUT THEIR SUM
+        echo "<br/>";
+        $playersScores['player4'] = $p4sum;
         
-        $randomIndex = rand(1,$playersSize);
-        
-        $randomPlayer = $players[$randomIndex];
-        
-        
-        echo "<img src = players/$randomPlayer.png>";
-        
-        
-        array_pop($players($randomPlayer));
-        
-        $playerSize--;
-        
-        
-        print_r($player4);
-        echo(" " + p4sum);
+        //calls the display winner methods
+        displayWinner($playersScores);
         
     }
-
-    $player1 = array();
-    $player2 = array();
-    $player3 = array();
-    $player4 = array();
-    $players = array("blossom", "bubbles", "buttercup", "mojojojo");
-    $playersSize = count($players);
     
-    $p1sum = 0;
-    $p2sum = 0;
-    $p3sum = 0;
-    $p4sum = 0;
-
-    // Parallel card suit and card value arrays.
-    $playerOneHandSuits = array();
-    $playerTwoHandSuits = array();
-    $playerThreeHandSuits = array();
-    $playerFourHandSuits = array();
+    function displayCards($suits,$values)
+    {   
+        $counter = count($suits);
+        //calculates the sum of the cards as it displays them. 
+        for($i = 0; $i < $counter; $i++)
+        {
+            echo "<img src = 'cards/$suits[$i]/$values[$i].png'>";
+            $sum+= $values[$i];
+        }
+        return $sum; 
+    }
     
-    $playerOneHandValues = getPlayerHand($playerOneHandSuits);
-    $playerTwoHandValues = getPlayerHand($playerTwoHandSuits);
-    $playerThreeHandValues = getPlayerHand($playerThreeHandSuits);
-    $playerFourHandValues = getPlayerHand($playerFourHandSuits);
+function displayWinner($scores)
+{
+        $playerTemp;
+        $totalSum = 0; 
+        $minDifference = 5; 
+        $tempScore = 0; 
+        $difference =0;
+        //arrays track the winning player and its score 
+        $tiePlayers = array(); 
+        $winningPlayer = array(); 
+
+        foreach( $scores as $player =>  $score)
+        {
+            $totalSum += $score; 
+           
+            if($score ==  42)
+            {
+               
+               array_push($winningPlayer,$player);
+               $playerTemp = " ";
+               $minDifference = 0;
+               $tempScore = 42;
+            }
+            else if($score < 42 && $minDifference > abs(42-$score) )
+            {
+                     $playerTemp = $player;
+                     $tempScore = $score; 
+                     $minDifference = abs(42- $score);
+
+            }
+            else if($score < 42 && $minDifference == abs(42 -$score))
+            {
+              
+                array_push($winningPlayer,$player);
+            }
+            
+        }
+        if($playerTemp != " ")
+        {
+            array_push($winningPlayer,$playerTemp);
+        }
+        
+        if(count($winningPlayer) == 0)
+            echo '<enter>'."No Winners !!".'</center>';
+        else
+        {
+            $totalSum = (($totalSum-$tempScore)/count($winningPlayer));
+            for($i = 0; $i < count($winningPlayer); $i++)
+            {
+                    
+                //echo $winningPlayer[$i]." wins ".$totalSum." points !!!"."</br>";
+                echo '<center>'.$winningPlayer[$i]." wins ".$totalSum." points !!!".'</center>';
+                //echo '<center>'.$tiePlayers[$i]." wins ".$totalSum." points !!!".'</center>';
+                echo'</br>';
+            }
+        
+        }
+        
+}
+    
     
     // Tests for each array. Uncomment and run to see paralle values
     // Each player's hand values will be printed first, and then
@@ -207,8 +255,8 @@
     
     print_r($playerFourHandSuits);
     echo " " . count($playerFourHandSuits);
-    echo "<hr>"; */
-
+    echo "<hr>"; 
+    */
 
 ?>
 
@@ -222,14 +270,12 @@
     <body>
         <h1>SilverJack</h1>
         <hr />
+         <main>
+             <?=displayHand()?>
+        </main>
         <footer>
             <img src="cards/cards.png" alt="cards" width="200px" />
         </footer>
-        <main>
-            
-            
-            <button type="button">Play Again</button>
-        </main>
         
     </body>
 </html>

@@ -39,4 +39,7 @@ h1{
 }
 main{
     background-color:white;
+    font-weight:bold;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
 }

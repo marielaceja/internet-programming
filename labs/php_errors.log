@@ -152,3 +152,46 @@
 [26-Feb-2016 01:18:13 UTC] PHP Stack trace:
 [26-Feb-2016 01:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
 [26-Feb-2016 01:26:35 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/ubuntu/workspace/labs/lab4/index.php on line 32
+[02-Mar-2016 01:12:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 11
+[02-Mar-2016 01:12:06 UTC] PHP Stack trace:
+[02-Mar-2016 01:12:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/confirmation.php:0
+[02-Mar-2016 01:12:06 UTC] PHP   2. getProducts() /home/ubuntu/workspace/labs/lab4/confirmation.php:33
+[02-Mar-2016 01:12:06 UTC] PHP Fatal error:  Call to undefined function getTotal() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 36
+[02-Mar-2016 01:12:06 UTC] PHP Stack trace:
+[02-Mar-2016 01:12:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/confirmation.php:0
+[02-Mar-2016 01:12:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 11
+[02-Mar-2016 01:12:48 UTC] PHP Stack trace:
+[02-Mar-2016 01:12:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/confirmation.php:0
+[02-Mar-2016 01:12:48 UTC] PHP   2. getProducts() /home/ubuntu/workspace/labs/lab4/confirmation.php:33
+[02-Mar-2016 01:12:48 UTC] PHP Fatal error:  Call to undefined function getTotal() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 36
+[02-Mar-2016 01:12:48 UTC] PHP Stack trace:
+[02-Mar-2016 01:12:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/confirmation.php:0
+[02-Mar-2016 01:12:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 11
+[02-Mar-2016 01:12:56 UTC] PHP Stack trace:
+[02-Mar-2016 01:12:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
+[02-Mar-2016 01:12:56 UTC] PHP   2. include() /home/ubuntu/workspace/labs/lab4/index.php:4
+[02-Mar-2016 01:12:56 UTC] PHP   3. getProducts() /home/ubuntu/workspace/labs/lab4/confirmation.php:33
+[02-Mar-2016 01:12:56 UTC] PHP Fatal error:  Call to undefined function getTotal() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 36
+[02-Mar-2016 01:12:56 UTC] PHP Stack trace:
+[02-Mar-2016 01:12:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
+[02-Mar-2016 01:12:56 UTC] PHP   2. include() /home/ubuntu/workspace/labs/lab4/index.php:4
+[02-Mar-2016 01:13:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 11
+[02-Mar-2016 01:13:06 UTC] PHP Stack trace:
+[02-Mar-2016 01:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
+[02-Mar-2016 01:13:06 UTC] PHP   2. include() /home/ubuntu/workspace/labs/lab4/index.php:4
+[02-Mar-2016 01:13:06 UTC] PHP   3. getProducts() /home/ubuntu/workspace/labs/lab4/confirmation.php:33
+[02-Mar-2016 01:13:06 UTC] PHP Fatal error:  Call to undefined function getTotal() in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 36
+[02-Mar-2016 01:13:06 UTC] PHP Stack trace:
+[02-Mar-2016 01:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
+[02-Mar-2016 01:13:06 UTC] PHP   2. include() /home/ubuntu/workspace/labs/lab4/index.php:4
+[02-Mar-2016 01:15:14 UTC] PHP Fatal error:  Cannot redeclare getCandidateList() (previously declared in /home/ubuntu/workspace/labs/lab4/includes/data.php:2) in /home/ubuntu/workspace/labs/lab4/includes/data.php on line 2
+[02-Mar-2016 01:15:14 UTC] PHP Stack trace:
+[02-Mar-2016 01:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
+[02-Mar-2016 01:15:14 UTC] PHP   2. include() /home/ubuntu/workspace/labs/lab4/index.php:4
+[02-Mar-2016 01:23:35 UTC] PHP Fatal error:  Cannot redeclare getCandidateList() (previously declared in /home/ubuntu/workspace/labs/lab4/includes/data.php:2) in /home/ubuntu/workspace/labs/lab4/includes/data.php on line 2
+[02-Mar-2016 01:23:35 UTC] PHP Stack trace:
+[02-Mar-2016 01:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
+[02-Mar-2016 01:23:35 UTC] PHP   2. include() /home/ubuntu/workspace/labs/lab4/index.php:4
+[02-Mar-2016 01:44:14 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/labs/lab4/confirmation.php on line 35
+[02-Mar-2016 01:44:14 UTC] PHP Stack trace:
+[02-Mar-2016 01:44:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab4/index.php:0
