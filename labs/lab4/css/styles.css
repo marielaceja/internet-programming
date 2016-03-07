@@ -1,0 +1,8 @@
+form{
+    margin-left:5em;
+}
+nav a:hover, #currentPage{ /*pseudo class*/
+    background-color: #ff5050;
+    font-size:2em;
+    transition:.4s;
+}
