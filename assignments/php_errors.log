@@ -484,3 +484,161 @@
 [24-Feb-2016 00:32:43 UTC] PHP Stack trace:
 [24-Feb-2016 00:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment2/main.php:0
 [24-Feb-2016 00:32:43 UTC] PHP   2. createTable() /home/ubuntu/workspace/assignments/assignment2/main.php:84
+[08-Mar-2016 21:53:55 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 21
+[08-Mar-2016 21:57:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 30
+[08-Mar-2016 21:58:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 30
+[08-Mar-2016 21:59:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 30
+[08-Mar-2016 22:00:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 36
+[08-Mar-2016 22:00:57 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 36
+[08-Mar-2016 22:04:17 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 31
+[08-Mar-2016 22:08:23 UTC] PHP Fatal error:  Call to undefined function validatePeople() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 46
+[08-Mar-2016 22:08:23 UTC] PHP Stack trace:
+[08-Mar-2016 22:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[08-Mar-2016 22:08:29 UTC] PHP Fatal error:  Call to undefined function validatePeople() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 46
+[08-Mar-2016 22:08:29 UTC] PHP Stack trace:
+[08-Mar-2016 22:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[08-Mar-2016 22:08:35 UTC] PHP Fatal error:  Call to undefined function validatePeople() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 46
+[08-Mar-2016 22:08:35 UTC] PHP Stack trace:
+[08-Mar-2016 22:08:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[08-Mar-2016 22:09:15 UTC] PHP Fatal error:  Call to undefined function validatePeople() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 46
+[08-Mar-2016 22:09:15 UTC] PHP Stack trace:
+[08-Mar-2016 22:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[08-Mar-2016 22:16:06 UTC] PHP Fatal error:  Call to undefined function validatePeople() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 47
+[08-Mar-2016 22:16:06 UTC] PHP Stack trace:
+[08-Mar-2016 22:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[08-Mar-2016 22:16:19 UTC] PHP Fatal error:  Call to undefined function validatePeople() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 47
+[08-Mar-2016 22:16:19 UTC] PHP Stack trace:
+[08-Mar-2016 22:16:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[08-Mar-2016 22:31:30 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 48
+[08-Mar-2016 22:51:23 UTC] PHP Parse error:  syntax error, unexpected 'fullName' (T_STRING), expecting ']' in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 58
+[08-Mar-2016 23:12:47 UTC] PHP Fatal error:  Call to undefined function displayErrors() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 114
+[08-Mar-2016 23:12:47 UTC] PHP Stack trace:
+[08-Mar-2016 23:12:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[08-Mar-2016 23:12:53 UTC] PHP Fatal error:  Call to undefined function displayErrors() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 114
+[08-Mar-2016 23:12:53 UTC] PHP Stack trace:
+[08-Mar-2016 23:12:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[08-Mar-2016 23:13:08 UTC] PHP Fatal error:  Call to undefined function displayErrors() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 114
+[08-Mar-2016 23:13:08 UTC] PHP Stack trace:
+[08-Mar-2016 23:13:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[08-Mar-2016 23:21:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 47
+[08-Mar-2016 23:22:16 UTC] PHP Fatal error:  Call to undefined function displayErrors() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 110
+[08-Mar-2016 23:22:16 UTC] PHP Stack trace:
+[08-Mar-2016 23:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[08-Mar-2016 23:35:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 52
+[08-Mar-2016 23:36:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 83
+[08-Mar-2016 23:38:17 UTC] PHP Fatal error:  Call to undefined function isNumberOfPeople() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 48
+[08-Mar-2016 23:38:17 UTC] PHP Stack trace:
+[08-Mar-2016 23:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[08-Mar-2016 23:41:54 UTC] PHP Fatal error:  Cannot redeclare next() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 31
+[14-Mar-2016 06:54:07 UTC] PHP Fatal error:  Call to undefined function isSubmitted() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 84
+[14-Mar-2016 06:54:07 UTC] PHP Stack trace:
+[14-Mar-2016 06:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[14-Mar-2016 06:54:31 UTC] PHP Fatal error:  Call to undefined function isSubmitted() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 84
+[14-Mar-2016 06:54:31 UTC] PHP Stack trace:
+[14-Mar-2016 06:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[14-Mar-2016 06:54:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 62
+[14-Mar-2016 06:56:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 62
+[14-Mar-2016 06:56:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 62
+[14-Mar-2016 06:56:42 UTC] PHP Fatal error:  Call to undefined function isSubmitted() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 84
+[14-Mar-2016 06:56:42 UTC] PHP Stack trace:
+[14-Mar-2016 06:56:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[14-Mar-2016 06:56:47 UTC] PHP Fatal error:  Call to undefined function isSubmitted() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 84
+[14-Mar-2016 06:56:47 UTC] PHP Stack trace:
+[14-Mar-2016 06:56:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[14-Mar-2016 06:57:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 62
+[14-Mar-2016 07:05:05 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/assignments/assignment3/result.php on line 15
+[14-Mar-2016 07:05:41 UTC] PHP Fatal error:  Cannot redeclare getRangeList() (previously declared in /home/ubuntu/workspace/assignments/assignment3/data.php:3) in /home/ubuntu/workspace/assignments/assignment3/data.php on line 3
+[14-Mar-2016 07:05:41 UTC] PHP Stack trace:
+[14-Mar-2016 07:05:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[14-Mar-2016 07:05:41 UTC] PHP   2. include() /home/ubuntu/workspace/assignments/assignment3/result.php:4
+[14-Mar-2016 07:08:48 UTC] PHP Fatal error:  Cannot redeclare getRangeList() (previously declared in /home/ubuntu/workspace/assignments/assignment3/data.php:3) in /home/ubuntu/workspace/assignments/assignment3/data.php on line 3
+[14-Mar-2016 07:08:48 UTC] PHP Stack trace:
+[14-Mar-2016 07:08:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[14-Mar-2016 07:08:48 UTC] PHP   2. include() /home/ubuntu/workspace/assignments/assignment3/result.php:4
+[14-Mar-2016 07:08:56 UTC] PHP Fatal error:  Cannot redeclare getRangeList() (previously declared in /home/ubuntu/workspace/assignments/assignment3/data.php:3) in /home/ubuntu/workspace/assignments/assignment3/data.php on line 3
+[14-Mar-2016 07:08:56 UTC] PHP Stack trace:
+[14-Mar-2016 07:08:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[14-Mar-2016 07:08:56 UTC] PHP   2. include() /home/ubuntu/workspace/assignments/assignment3/result.php:4
+[14-Mar-2016 07:09:24 UTC] PHP Fatal error:  Cannot redeclare getRangeList() (previously declared in /home/ubuntu/workspace/assignments/assignment3/data.php:3) in /home/ubuntu/workspace/assignments/assignment3/data.php on line 3
+[14-Mar-2016 07:09:24 UTC] PHP Stack trace:
+[14-Mar-2016 07:09:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[14-Mar-2016 07:09:24 UTC] PHP   2. include() /home/ubuntu/workspace/assignments/assignment3/result.php:4
+[16-Mar-2016 21:02:52 UTC] PHP Fatal error:  Cannot redeclare getRangeList() (previously declared in /home/ubuntu/workspace/assignments/assignment3/data.php:3) in /home/ubuntu/workspace/assignments/assignment3/data.php on line 3
+[16-Mar-2016 21:02:52 UTC] PHP Stack trace:
+[16-Mar-2016 21:02:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[16-Mar-2016 21:02:52 UTC] PHP   2. include() /home/ubuntu/workspace/assignments/assignment3/result.php:4
+[16-Mar-2016 21:13:06 UTC] PHP Fatal error:  Call to undefined function getNumberOfPeople() in /home/ubuntu/workspace/assignments/assignment3/result.php on line 9
+[16-Mar-2016 21:13:06 UTC] PHP Stack trace:
+[16-Mar-2016 21:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[16-Mar-2016 21:13:06 UTC] PHP   2. isDataValid() /home/ubuntu/workspace/assignments/assignment3/result.php:17
+[16-Mar-2016 21:45:01 UTC] PHP Fatal error:  Call to undefined function displayChores() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 77
+[16-Mar-2016 21:45:01 UTC] PHP Stack trace:
+[16-Mar-2016 21:45:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[17-Mar-2016 02:23:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 23
+[17-Mar-2016 02:23:30 UTC] PHP Stack trace:
+[17-Mar-2016 02:23:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[17-Mar-2016 02:23:30 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/assignments/assignment3/index.php:53
+[18-Mar-2016 22:34:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 23
+[18-Mar-2016 22:34:55 UTC] PHP Stack trace:
+[18-Mar-2016 22:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[18-Mar-2016 22:34:55 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/assignments/assignment3/index.php:53
+[18-Mar-2016 22:35:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 23
+[18-Mar-2016 22:35:14 UTC] PHP Stack trace:
+[18-Mar-2016 22:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[18-Mar-2016 22:35:14 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/assignments/assignment3/index.php:53
+[18-Mar-2016 22:44:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/assignments/assignment3/index.php on line 23
+[18-Mar-2016 22:44:04 UTC] PHP Stack trace:
+[18-Mar-2016 22:44:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/index.php:0
+[18-Mar-2016 22:44:04 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/assignments/assignment3/index.php:53
+[18-Mar-2016 22:54:17 UTC] PHP Fatal error:  Call to undefined function getNumberOfPeople() in /home/ubuntu/workspace/assignments/assignment3/result.php on line 19
+[18-Mar-2016 22:54:17 UTC] PHP Stack trace:
+[18-Mar-2016 22:54:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[18-Mar-2016 22:54:17 UTC] PHP   2. isSubmitted() /home/ubuntu/workspace/assignments/assignment3/result.php:50
+[18-Mar-2016 22:58:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 55
+[18-Mar-2016 22:58:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 55
+[18-Mar-2016 22:58:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 55
+[18-Mar-2016 22:58:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/assignments/assignment3/result.php on line 55
+[18-Mar-2016 23:00:03 UTC] PHP Fatal error:  Call to undefined function getNumberOfPeople() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 61
+[18-Mar-2016 23:00:03 UTC] PHP Stack trace:
+[18-Mar-2016 23:00:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[18-Mar-2016 23:00:16 UTC] PHP Fatal error:  Call to undefined function getNumberOfPeople() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 61
+[18-Mar-2016 23:00:16 UTC] PHP Stack trace:
+[18-Mar-2016 23:00:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[18-Mar-2016 23:00:25 UTC] PHP Fatal error:  Call to undefined function getNumberOfPeople() in /home/ubuntu/workspace/assignments/assignment3/displayChores.php on line 61
+[18-Mar-2016 23:00:25 UTC] PHP Stack trace:
+[18-Mar-2016 23:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/displayChores.php:0
+[19-Mar-2016 22:17:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/assignments/assignment3/result.php on line 20
+[19-Mar-2016 22:17:24 UTC] PHP Stack trace:
+[19-Mar-2016 22:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:17:24 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/assignments/assignment3/result.php:20
+[19-Mar-2016 22:17:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/assignments/assignment3/result.php on line 20
+[19-Mar-2016 22:17:24 UTC] PHP Stack trace:
+[19-Mar-2016 22:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:17:24 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/assignments/assignment3/result.php:20
+[19-Mar-2016 22:17:24 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/assignments/assignment3/result.php on line 31
+[19-Mar-2016 22:17:24 UTC] PHP Stack trace:
+[19-Mar-2016 22:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:17:24 UTC] PHP   2. isSubmitted() /home/ubuntu/workspace/assignments/assignment3/result.php:58
+[19-Mar-2016 22:18:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/assignments/assignment3/result.php on line 20
+[19-Mar-2016 22:18:41 UTC] PHP Stack trace:
+[19-Mar-2016 22:18:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:18:41 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/assignments/assignment3/result.php:20
+[19-Mar-2016 22:18:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/assignments/assignment3/result.php on line 20
+[19-Mar-2016 22:18:41 UTC] PHP Stack trace:
+[19-Mar-2016 22:18:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:18:41 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/assignments/assignment3/result.php:20
+[19-Mar-2016 22:18:41 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/assignments/assignment3/result.php on line 31
+[19-Mar-2016 22:18:41 UTC] PHP Stack trace:
+[19-Mar-2016 22:18:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:18:41 UTC] PHP   2. isSubmitted() /home/ubuntu/workspace/assignments/assignment3/result.php:58
+[19-Mar-2016 22:19:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/assignments/assignment3/result.php on line 20
+[19-Mar-2016 22:19:21 UTC] PHP Stack trace:
+[19-Mar-2016 22:19:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:19:21 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/assignments/assignment3/result.php:20
+[19-Mar-2016 22:19:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/assignments/assignment3/result.php on line 20
+[19-Mar-2016 22:19:21 UTC] PHP Stack trace:
+[19-Mar-2016 22:19:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0
+[19-Mar-2016 22:19:21 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/assignments/assignment3/result.php:20
+[19-Mar-2016 22:44:31 UTC] PHP Fatal error:  Call to undefined function print_array() in /home/ubuntu/workspace/assignments/assignment3/result.php on line 4
+[19-Mar-2016 22:44:31 UTC] PHP Stack trace:
+[19-Mar-2016 22:44:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/assignment3/result.php:0

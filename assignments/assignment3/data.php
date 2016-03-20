@@ -1,6 +1,10 @@
 <?php
 
-    function getRanange2_3(){
+    function getRangeList(){
+        $range = array("Ages 2-3", "Ages 4-5", "Ages 6-8", "Ages 9-11");
+        return $range;
+    }
+    function getRange2_3(){
         $chores2_3 = array("Pick up/put away toys", "Unload the dishwasher (silverware, plastic cups, tupperware)", 
         "Dust with feather duster/microfiber rag", "Swiffer the floor", "Put clothes in the dirty clothes hamper",
         "Collect dirty clothes", "Help move clothes from washer to dryer", "Put clothes away","Make bed", "Wipe cabinets", 
